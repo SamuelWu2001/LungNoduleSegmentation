@@ -11,3 +11,4 @@ It is a project which utilizing LIDC-IDRI open dataset to train both detection a
 ## FasterRCNN
 - custom rpn classification loss and roi classification loss can be fullfilled through remove comment 
 - For more modifications, please refer to the pytorch official website
+- After training, run predict-fasterrcnn.ipynb to predict results
