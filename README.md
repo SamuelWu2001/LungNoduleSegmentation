@@ -7,3 +7,7 @@ It is a project which utilizing LIDC-IDRI open dataset to train both detection a
 - run pip install -r requirements.txt to install necessary packages
 - run prepare_dataset.py to obatain preprocessed data or run prepare_dataset_continuous.py to obatain continuous one
 - run mask_to_bbox.ipynb to obtain bounding boxes
+
+## FasterRCNN
+- custom rpn classification loss and roi classification loss can be fullfilled through remove comment 
+- For more modifications, please refer to the pytorch official website
