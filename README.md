@@ -9,6 +9,6 @@ It is a project which utilizing LIDC-IDRI open dataset to train both detection a
 - run mask_to_bbox.ipynb to obtain bounding boxes
 
 ## FasterRCNN
-- custom rpn classification loss and roi classification loss can be fullfilled through remove comment 
+- custom rpn classification loss and roi classification loss can be fullfilled through removing comments
 - For more modifications, please refer to the pytorch official website
 - After training, run predict-fasterrcnn.ipynb to predict results
