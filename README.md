@@ -1,5 +1,5 @@
 # LungNoduleSegmentation
-It is a project which utilizing LIDC-IDRI open dataset to train both detection and segmentation models
+It is a project utilizing LIDC-IDRI open dataset to train both detection and segmentation models
 
 ## Preprocess
 - download the LIDC-IDRI open dataset and put the data under the folder named 'LIDC-IDRI'
