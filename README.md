@@ -12,3 +12,11 @@ It is a project utilizing LIDC-IDRI open dataset to train both detection and seg
 - custom rpn classification loss and roi classification loss can be fullfilled through removing comments
 - For more modifications, please refer to the pytorch official website
 - After training, run predict-fasterrcnn.ipynb to predict results
+
+## UNet
+- 3 cropping methods
+  - origin: bounding box unchanged 
+  - add padding: expand bounding box by certain pixels
+  - none: use the entire image
+- train with accurate bounding box information and test with FasterRCNN output
+ 
