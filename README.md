@@ -13,6 +13,10 @@ It is a project utilizing LIDC-IDRI open dataset to train both detection and seg
 - For more modifications, please refer to the pytorch official website
 - After training, run predict-fasterrcnn.ipynb to predict results
 
+## Multi-slice FasterRCNN
+- Concatenate three consecutive slices and divide them into overlapping patches to serve as input for Faster R-CNN. The objective is to output the bounding box of lung nodules in the middle slice (the second slice).
+- This method aims to test whether the information between multiple slices can assist in detection during the training phase. Therefore, only the input and output parts of the model have been implemented, excluding post-processing.
+
 ## UNet
 - 3 cropping methods
   - origin: bounding box unchanged 
