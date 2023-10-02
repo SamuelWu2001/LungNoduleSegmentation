@@ -25,7 +25,7 @@ For the U-Net model, we introduced three cropping policies and compared their se
 ### Faster R-CNN
 - Coverage: The average proportion of the area of each true bounding box that is covered by predicted bounding boxes.
 - Recall: The proportion of all true bounding boxes for which Coverage exceeds 0.7.
-- Recall: The average coverage for all cases where Coverage exceeds 0.7 (true positives).
+- Coverage (true pos): The average coverage for all cases where Coverage exceeds 0.7 (true positives).
 - Precision: The proportion of all predicted bounding boxes for which the Intersection over Union (IoU) with a true bounding box exceeds 0.3.
 - IoU Average: The average IoU between all true bounding boxes and predicted bounding boxes.
 - FP/Scan: The average number of false-positive predictions per slice.
