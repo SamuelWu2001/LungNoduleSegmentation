@@ -29,7 +29,11 @@ For the U-Net model, we introduced three cropping policies and compared their se
 - Precision: The proportion of all predicted bounding boxes for which the Intersection over Union (IoU) with a true bounding box exceeds 0.3.
 - IoU Average: The average IoU between all true bounding boxes and predicted bounding boxes.
 - FP/Scan: The average number of false-positive predictions per slice.
-![image](https://github.com/SamuelWu2001/LungNoduleSegmentation/assets/71746159/aa1ef0e0-bdef-403b-bd12-4ee1ee9a6a7a)
+
+| | Coverage | Recall | Coverage (true pos) | Precision | IoU Average | FP/Scan |
+| -------- | -------- | -------- | -------- | -------- | -------- | -------- |
+| With  Post process |  0.650 | 0.383 | 0.968 | 0.383(116/303) | 0.286 | 0.443 |
+| Without  Post process | 0.631 | 0.373 | 0.953 | 0.516(353/684) | 0.382 | 0.784 |
 
 ### Unet
 ![image](https://github.com/SamuelWu2001/LungNoduleSegmentation/assets/71746159/7094b54c-3325-45ef-868a-80b80b960821)
