@@ -5,7 +5,11 @@ Segmenting pulmonary nodules has always been a challenging task due to the small
 
 ## Method
 ### Preprocess
-Since our dataset, LIDC-IDRI, consists of medical images from various medical centers, preprocessing is necessary to remove extremely high (e.g., bones, metal implants) or low (e.g., background) Hounsfield Unit (HU) values to eliminate unnecessary information that might interfere with segmentation. Due to hardware limitations, we utilized CT scans from a total of 250 patients for training. Furthermore, to address the class imbalance issue, we maintained a positive-to-negative sample ratio of 1:3 during training.
+Since our dataset, LIDC-IDRI, consists of medical images from various medical centers, preprocessing is necessary to remove extremely high (e.g., bones, metal implants) or low (e.g., background) Hounsfield Unit (HU) values to eliminate unnecessary information that might interfere with segmentation.
+
+Due to hardware limitations, we utilized CT scans from a total of 250 patients for training. 
+
+Furthermore, to address the class imbalance issue, we maintained a positive-to-negative sample ratio of 1:3 during training.
 ### Faster R-CNN
 In order to improve the coverage of bounding boxes for pulmonary nodules in the Faster R-CNN model, we attempted the following modifications:
 - Adjusted the initial sizes of generated candidate boxes.
