@@ -38,9 +38,13 @@ For the U-Net model, we introduced three cropping policies and compared their se
 ![image](https://github.com/SamuelWu2001/LungNoduleSegmentation/assets/71746159/9bcc4054-e440-4475-8514-3921567b5616)
 
 method 1 : Utilizing accurate bounding box without padding for training and testing
+
 method 2 : Utilizing accurate bounding box with padding for training and testing
+
 method 3 : Training and testing without bounding box
+
 method 4 : Utilizing faster R-CNN’s bounding box for testing in conjunction with method 1’s training model
+
 method 5 : Utilizing faster R-CNN’s bounding box with padding for testing in conjunction with method 2’s training model
 
 # Implementation
