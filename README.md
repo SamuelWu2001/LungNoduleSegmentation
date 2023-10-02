@@ -18,7 +18,7 @@ In order to improve the coverage of bounding boxes for pulmonary nodules in the 
 
 ### Unet
 For the U-Net model, we introduced three cropping policies and compared their segmentation results. In addition, we incorporated attention modules into the skip connections and upsampling layers to assess whether their inclusion improved performance.
-![image](https://github.com/SamuelWu2001/LungNoduleSegmentation/assets/71746159/bbe742e2-b67b-42e3-9ef7-0dc5df695642)
+![image](https://github.com/SamuelWu2001/LungNoduleSegmentation/assets/71746159/bbe742e2-b67b-42e3-9ef7-0dc5df695642 =70%x)
 
 
 ### Result
@@ -29,13 +29,13 @@ For the U-Net model, we introduced three cropping policies and compared their se
 - Precision: The proportion of all predicted bounding boxes for which the Intersection over Union (IoU) with a true bounding box exceeds 0.3.
 - IoU Average: The average IoU between all true bounding boxes and predicted bounding boxes.
 - FP/Scan: The average number of false-positive predictions per slice.
-![image](https://github.com/SamuelWu2001/LungNoduleSegmentation/assets/71746159/aa1ef0e0-bdef-403b-bd12-4ee1ee9a6a7a)
+![image](https://github.com/SamuelWu2001/LungNoduleSegmentation/assets/71746159/aa1ef0e0-bdef-403b-bd12-4ee1ee9a6a7a =70%x)
 
 **Unet**
 ![image](https://github.com/SamuelWu2001/LungNoduleSegmentation/assets/71746159/7094b54c-3325-45ef-868a-80b80b960821)
 
 **Attention Unet**
-![image](https://github.com/SamuelWu2001/LungNoduleSegmentation/assets/71746159/9bcc4054-e440-4475-8514-3921567b5616)
+![image](https://github.com/SamuelWu2001/LungNoduleSegmentation/assets/71746159/9bcc4054-e440-4475-8514-3921567b5616 =50%x)
 
 method 1 : Utilizing accurate bounding box without padding for training and testing
 method 2 : Utilizing accurate bounding box with padding for training and testing
