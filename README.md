@@ -35,7 +35,13 @@ For the U-Net model, we introduced three cropping policies and compared their se
 ![image](https://github.com/SamuelWu2001/LungNoduleSegmentation/assets/71746159/7094b54c-3325-45ef-868a-80b80b960821)
 
 ### Attention Unet
-![image](https://github.com/SamuelWu2001/LungNoduleSegmentation/assets/71746159/9bcc4054-e440-4475-8514-3921567b5616)
+| | IoU | Precision | Recall | Dice Score |
+| -------- | -------- | -------- | -------- | -------- |
+|  1    |  0.8235     | 0.9132     |0.8934     |0.8975   |
+|  2   | 0.8021  |0.8879   |0.9104    |0.8913     |
+|  3| 0.4711    | 0.7192    |0.6482 |0.6498    |
+|   4   | 0.4329     |0.6522   |0.5115    |0.5567    |
+|   5   | 0.2995     | 0.8373    |0.3131  |0.3947  |
 
 method 1 : Utilizing accurate bounding box without padding for training and testing
 
