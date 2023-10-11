@@ -61,7 +61,7 @@ method 4 : Utilizing faster R-CNN’s bounding box for testing in conjunction wi
 
 method 5 : Utilizing faster R-CNN’s bounding box with padding for testing in conjunction with method 2’s training model
 
-# Implementation
+# Getting Started
 ## Preprocess
 - download the LIDC-IDRI open dataset and put the data under the folder named 'LIDC-IDRI'
 - run config_file_create.py to create configure file
